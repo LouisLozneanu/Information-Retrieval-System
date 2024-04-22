@@ -12,7 +12,7 @@ Next Steps: Future work will focus on improving the crawler's efficiency, expand
 
 
 # Overview
-Solution Outline: The solution comprises three main components: a web crawler, a data processor, and a search interface. Each component is designed to facilitate maintenance and scalability.
+Solution Outline: This project comprises three main components: a web crawler, a data processor, and a search interface. Each component is designed to facilitate maintenance and scalability.
 Relevant Literature: The project is inspired by classic IR systems and leverages modern computational methods discussed in CS 429, including techniques for web crawling, data indexing, and query processing.
 Proposed System: The system is designed to be deployed as a web service, where users can input queries and receive relevant documents as outputs. It employs machine learning algorithms to enhance search accuracy and uses a web crawler to collect data continuously.
 # Design
