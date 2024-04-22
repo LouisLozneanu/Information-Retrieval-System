@@ -1,7 +1,6 @@
 # Information-Retrieval-System
 Repository for an information retrieval system. This repository will also be submitted for my CS 429 project.
 
-
 # Project Write Up
 
 # Abstract
@@ -80,16 +79,13 @@ Public datasets and APIs could be integrated to the data sources.
 
 # Test Cases
 Framework, Harness, Coverage:
-Unit tests for individual components (crawler, processor, UI).
-Integration tests to ensure components work together as expected.
-Full coverage of critical functionalities such as data retrieval and query processing.
+Due to a lack of testing, it is hard to trust whether or not the code provided is sufficient. Further testing and debugging is required, but this is definitely a start. However, if I were able to do test cases, then I would do unit tests for each individual component (crawler, processor, UI). I would also do integration tests to ensure that components work together as intended.
 
 
 # Source Code
 Listings, Documentation, Dependencies (Open-Source):
-Scrapy for crawling (GPLv2+)
-sklearn for machine learning tasks (BSD license)
-Flask for the web interface (BSD license)
+Scrapy for crawling (GPLv2+), sklearn for machine learning tasks (BSD license), Flask for the web interface (BSD license).
+A large amount of the initial source code was written using GitHub Copilot. However, a lot of that initial code still had a lot of errors in it and GitHub Copilot didn't always debug the error itself. So debugging the source code was mostly a combination of GitHub Copilot, my own work, and one particular stackoverflow article which has been linked in the bibliography. There are a few errors in my section regarding the Indexer Settings. However, neither I nor GitHub Copilot were able to fix it, and whatever stackoverflow articles I found didn't seem to provide any solution that would permanently fix the issue.
 
 
 # Bibliography
