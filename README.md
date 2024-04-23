@@ -16,7 +16,7 @@ Solution Outline: This project comprises three main components: a web crawler, a
 
 Relevant Literature: The project is inspired by classic IR systems and leverages modern computational methods discussed in CS 429, including techniques for web crawling, data indexing, and query processing.
 
-Proposed System: The system is designed to be deployed as a web service, where users can input queries and receive relevant documents as outputs. It employs machine learning algorithms to enhance search accuracy and uses a web crawler to collect data continuously.
+Proposed System: This system is intended to be deployed as a web service, where users can input queries and receive relevant documents as outputs. It employs machine learning algorithms to enhance search accuracy and uses a web crawler to collect data continuously.
 # Design
 Intended System Capabilities:
 Web Crawling: Customizable and scalable web crawler using Scrapy.
