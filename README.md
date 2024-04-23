@@ -51,7 +51,7 @@ The search interface utilizes processed data to match user queries with document
 # Operation
 Software Commands:
 Installation involves setting up Python 3.10+, along with libraries such as Flask, Scrapy, and sklearn.
-Commands for starting the server, initiating crawlers, and performing routine maintenance are scripted for ease of use.
+Commands for starting the server, initiating crawlers, and installing necessary items via pip install in powershell.
 
 Inputs:
 Users are intended to input search queries through the web interface, although this hasn’t been finished yet.
